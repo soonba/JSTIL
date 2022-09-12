@@ -1,0 +1,19 @@
+const Counter = (function () {
+    // private variable
+    let num = 0;
+
+    return {
+        increase() {
+            return ++num;
+        },
+        decrease() {
+            return --num;
+        }
+    };
+}());
+
+console.log(Counter.increase());
+console.log(Counter.increase());
+console.log(Counter.increase());
+console.log(Counter.decrease());
+
