@@ -1,0 +1,1 @@
+console.log(Object.getOwnPropertyDescriptor(Object.prototype,'__proto__'));
