@@ -7,6 +7,9 @@ console.log(obj.x);
 console.log(Object.getOwnPropertyDescriptors(obj));
 console.log(Object.getPrototypeOf(obj));
 const obj2 = {};
+console.log("----");
 console.log(Object.getPrototypeOf(obj2));
 console.log(obj2.x);
+
+// console.log(Object.getOwnPropertyDescriptors(Object)); // x 없네?
 
